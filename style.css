@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+}
+
+.pagamenti {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pagamento {
+  width: 200px;
+  height: 150px;
+  margin-bottom: 10px;
+  color: white;
+  background: purple;
+  border: solid 3px black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.delete {
+  cursor: pointer;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
